@@ -58,7 +58,7 @@ variable "friendly_name_prefix" {
   description = "(Required) Friendly name prefix used for tagging and naming AWS resources."
 }
 
-variable "health_grace_period" {
+variable "health_check_grace_period" {
   description = "The health grace period aws provides to allow for an instance to pass it's health check."
   type        = number
 }
